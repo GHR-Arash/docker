@@ -6,7 +6,7 @@ services:
     environment:
       POSTGRES_DB: ProductCatalog
       POSTGRES_USER: admin  
-      POSTGRES_PASSWORD: @Password1234
+      POSTGRES_PASSWORD: @Password123
     volumes:
       - postgres_data:/var/lib/postgresql/data
     ports:
